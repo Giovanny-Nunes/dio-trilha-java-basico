@@ -9,7 +9,7 @@ public class ContaTerminal {
         String agencia = sc.nextLine();
 
         System.out.println("Informe o seu Número de Conta: ");
-        int numero = sc.nextInt();
+        String numero = sc.nextLine();
 
         System.out.println("Informe o seu Saldo atual: ");
         double saldo = sc.nextDouble();
